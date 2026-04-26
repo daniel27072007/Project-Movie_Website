@@ -24,7 +24,7 @@ h3{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 30px;
     text-transform: uppercase;
 }
 
@@ -58,16 +58,18 @@ input{
     display: block;
 }
 /*arranges the boxes*/
-.row{
-    display: flex;
-    justify-content: left;
-    gap: 20px;
-    flex-wrap: wrap;
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 15px;
+  width: 100%;
 }
-/*set the boxes size*/
-.column{
-    width: 250px;
-    padding: 10px;
+
+.column {
+  width: 15%; 
+  min-width: 150px; /* Prevents them from getting too tiny */
+  padding: 10px;
 }
 
 /*style the boxes*/
